@@ -18,12 +18,14 @@
     margin-bottom: 2.5rem;
     text-align: center;
     font-size: 4rem;
-    color:var(--white);
+    /* color:var(--white); */
+    color:var(--black);
     text-transform: uppercase;
  }
  
  .heading span{
-    color:var(--green);
+    /* color:var(--green); */
+    color:var(--purple);
     text-transform: uppercase;
  }
  
@@ -53,7 +55,8 @@
  }
  
  .header .flex .navbar a:hover{
-    color:var(--green);
+    /* color:var(--green); */
+    color:var(--purple);
  }
 
 

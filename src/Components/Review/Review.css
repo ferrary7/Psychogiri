@@ -25,11 +25,13 @@
 }
 
 .swiper-pagination-bullet{
-   background-color: var(--white);
+   background-color: var(--black);
+   /* background-color: var(--purple); */
 }
  
 .swiper-pagination-bullet-active{
-   background-color: var(--green);
+   /* background-color: var(--green); */
+   background-color: var(--purple);
 }
 
 .teachers .slide{

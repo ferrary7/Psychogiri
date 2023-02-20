@@ -6,6 +6,7 @@
    --light-white:#aaa;
    --black:#3d3d3d;
    --light-bg:#4b4b4b;
+   --purple:#BF40BF;
 }
 
 *{
@@ -40,12 +41,14 @@ html{
 }
 
 ::-webkit-scrollbar-thumb{
-   background-color: var(--green);
+   /* background-color: var(--green); */
+   background-color: var(--purple);
    border-radius: 5rem;
 }
 
 body{
-   background-color: var(--black);
+   /* background-color: var(--black); */
+   background-color: var(--white);
 }
 
 section{

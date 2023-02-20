@@ -1,6 +1,7 @@
 #menu-btn{
     cursor: pointer;
-    color:var(--white);
+    /* color:var(--white); */
+    color:#fff;
     font-size: 2.5rem;
     display: none;
  }
@@ -32,10 +33,12 @@
  .home .row .content h3{
     margin-bottom: 1rem;
     font-size: 7rem;
-    color:var(--white);
+    /* color:var(--white); */
+    color:var(--black);
     line-height: 1;
  }
     
  .home .row .content h3 span{
-    color:var(--green);
+    color:var(--purple);
+    /* color:var(--green); */
  }

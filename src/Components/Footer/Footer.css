@@ -1,5 +1,6 @@
 .footer{
-    background-color: var(--light-bg);
+    /* background-color: var(--light-bg); */
+    background-color: var(--white);
     text-align: center;
  }
  
@@ -9,22 +10,27 @@
     width: 4.5rem;
     line-height: 4.5rem;
     font-size: 3rem;
-    color:var(--white);
+    /* color:var(--white); */
+    color:var(--black);
  }
  
  .footer .share a:hover{
-    color: var(--green);
+    /* color: var(--green); */
+    color: var(--purple);
  }
  
  .footer .credit{
     margin-top: 2.5rem;
     padding:1.5rem;
     padding-top: 2.5rem;
-    border-top: .1rem solid var(--light-white);
+    border-top: .1rem solid var(--black);
+    /* border-top: .1rem solid var(--light-white); */
     font-size: 2rem;
-    color:var(--light-white);
+    color:var(--black);
+    /* color:var(--light-white); */
  }
  
  .footer .credit span{
-    color:var(--green);
+    /* color:var(--green); */
+    color:var(--purple);
  }
