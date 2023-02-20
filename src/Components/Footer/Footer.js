@@ -12,7 +12,7 @@ function Footer() {
           <a href="/" className="fab fa-youtube"><FontAwesomeIcon icon={faYoutube} /></a>
         </div>
         <div className="credit">
-          &copy; {new Date().getFullYear()} <span>Psychogiri</span> | Where you can learn Mental Health!
+          &copy; {new Date().getFullYear()} <span>Psychoshala</span> | Where you can learn Mental Health!
         </div>
       </section>
     </footer>

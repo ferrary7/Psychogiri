@@ -10,7 +10,7 @@ function About() {
           <img src={image} alt="" />
         </div>
         <div className="content">
-          <h3>Why Choose Psychogiri?</h3>
+          <h3>Why Choose Psychoshala?</h3>
           <p>
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum sint distinctio, ex consectetur dolores
             voluptatum aut et iure. Reiciendis illo explicabo labore suscipit perferendis praesentium. Excepturi non,
