@@ -2,8 +2,8 @@ import React from 'react';
 import SwiperCore, { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.min.css';
-import course1 from '../../images/course-6.svg'
-import course2 from '../../images/course-3.svg'
+import course1 from '../../images/course-2.svg'
+import course2 from '../../images/course-4.svg'
 import course3 from '../../images/course-5.svg'
 import course4 from '../../images/course-1.svg'
 

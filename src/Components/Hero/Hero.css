@@ -41,4 +41,26 @@
  .home .row .content h3 span{
     color:var(--purple);
     /* color:var(--green); */
+    /* transition: color 0.2s ease-in-out; */
+    animation: zoomInOut 2s ease-in-out infinite;
+    display: inline-block;
  }
+
+ /* .home .row .content h3 span:hover {
+  color: var(--light-bg);
+} */
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

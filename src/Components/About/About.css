@@ -3,6 +3,7 @@
     align-items: center;
     gap: 1.5rem;
     flex-wrap: wrap;
+    height: 80vh;
  }
  
  .about .row .image{

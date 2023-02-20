@@ -21,6 +21,7 @@
     /* color:var(--white); */
     color:var(--black);
     text-transform: uppercase;
+    padding-top: 8rem;
  }
  
  .heading span{
@@ -46,12 +47,14 @@
  .header .flex .logo{
     font-size: 2.5rem;
     color:var(--white);
+    font-weight: 700;
  }
  
  .header .flex .navbar a{
     margin-left: 2rem;
     color:var(--light-white);
     font-size: 2rem;
+    font-weight: 700;
  }
  
  .header .flex .navbar a:hover{
