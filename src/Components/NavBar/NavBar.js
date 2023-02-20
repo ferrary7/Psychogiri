@@ -14,7 +14,7 @@ const Header = () => {
     <header className="header">
       <section className="flex">
         <a href="#home" className="logo">
-          Psychogiri
+          Psychoshala
         </a>
         <nav className={`navbar ${isActive ? "active" : ""}`}>
           <a href="#home">Home</a>

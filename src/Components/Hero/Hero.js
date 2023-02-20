@@ -8,7 +8,7 @@ const Home = () => {
       <div className="row">
         <div className="content">
           <h3>
-            Learn Mental Health with <span>Psychogiri</span>
+            Learn Mental Health with <span>Psychoshala</span>
           </h3>
         </div>
         <div className="image">
