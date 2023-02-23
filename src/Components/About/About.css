@@ -1,3 +1,6 @@
+.aboutSuper{
+   background-color: #dee7e7;
+}
 .about .row{
     display: flex;
     align-items: center;
@@ -30,4 +33,19 @@
     line-height: 2;
     font-size: 1.6rem;
     color:var(--light-white);
+ }
+ .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background-color: var(--purple);
+    cursor: pointer;
+    color:var(--white);
+    font-size: 1.8rem;
+    padding:1rem 3rem;
+ }
+ 
+ .btn:hover{
+    background-color: var(--light-bg);
+    color:var(--black);
  }

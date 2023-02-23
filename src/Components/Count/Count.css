@@ -1,3 +1,8 @@
+.countSuper{
+   background-color: var(--light-bg);
+   padding-bottom: 5rem;
+   /* background-color: #dee7e7; */
+}
 .count .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
@@ -6,7 +11,7 @@
  }
  
  .count .box-container .box{
-    background-color: var(--light-bg);
+    background-color: var(--purple);
     border-radius: .5rem;
     padding:2rem;
     display: flex;
@@ -28,5 +33,5 @@
  
  .count .box-container .box .content p{
     font-size: 1.6rem;
-    color:var(--light-white);
+    color:var(--light-bg);
  } 

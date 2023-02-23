@@ -9,44 +9,46 @@ import "./Count.css";
 
 const Count = () => {
   return (
-    <section className="count">
-      <div className="box-container">
-        <div className="box">
-          <FontAwesomeIcon icon={faGraduationCap} size="5x" color="#674188" />
-          <div className="content">
-            <h3>3</h3>
-            <p>Courses</p>
+    <div className="countSuper">
+      <section className="count">
+        <div className="box-container">
+          <div className="box">
+            <FontAwesomeIcon icon={faGraduationCap} size="5x" color="#f0e9dd" />
+            <div className="content">
+              <h3>3</h3>
+              <p>Courses</p>
+            </div>
           </div>
-        </div>
-        <div className="box">
-          <FontAwesomeIcon icon={faUserGraduate} size="5x" color="#674188" />
-          <div className="content">
-            <h3>1000</h3>
-            <p>Students</p>
+          <div className="box">
+            <FontAwesomeIcon icon={faUserGraduate} size="5x" color="#f0e9dd" />
+            <div className="content">
+              <h3>1000</h3>
+              <p>Students</p>
+            </div>
           </div>
-        </div>
 
-        <div className="box">
-          <FontAwesomeIcon
-            icon={faChalkboardTeacher}
-            size="5x"
-            color="#674188"
-          />
-          <div className="content">
-            <h3>20+</h3>
-            <p>Coaches</p>
+          <div className="box">
+            <FontAwesomeIcon
+              icon={faChalkboardTeacher}
+              size="5x"
+              color="#f0e9dd"
+            />
+            <div className="content">
+              <h3>20+</h3>
+              <p>Coaches</p>
+            </div>
           </div>
-        </div>
 
-        <div className="box">
-          <FontAwesomeIcon icon={faSmile} size="5x" color="#674188" />
-          <div className="content">
-            <h3>100%</h3>
-            <p>Satisfaction</p>
+          <div className="box">
+            <FontAwesomeIcon icon={faSmile} size="5x" color="#f0e9dd" />
+            <div className="content">
+              <h3>100%</h3>
+              <p>Satisfaction</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 

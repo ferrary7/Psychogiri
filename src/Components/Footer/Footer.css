@@ -1,5 +1,5 @@
 .footer{
-    background-color: var(--light-bg);
+    background-color: var(--purple);
     /* background-color: var(--white); */
     text-align: center;
  }
@@ -11,26 +11,27 @@
     line-height: 4.5rem;
     font-size: 3rem;
     /* color:var(--white); */
-    color:var(--black);
+    color: #dee7e7;
  }
  
  .footer .share a:hover{
     /* color: var(--green); */
-    color: var(--purple);
+    color: var(--white);
  }
  
  .footer .credit{
     margin-top: 2.5rem;
     padding:1.5rem;
     padding-top: 2.5rem;
-    border-top: .1rem solid var(--black);
+    border-top: .1rem solid var(--white);
     /* border-top: .1rem solid var(--light-white); */
     font-size: 2rem;
-    color:var(--black);
+    color:var(--white);
     /* color:var(--light-white); */
  }
  
  .footer .credit span{
     /* color:var(--green); */
-    color:var(--purple);
+    color:var(--light-bg);
+    font-weight: 800;
  }
