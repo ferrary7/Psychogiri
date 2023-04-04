@@ -11,13 +11,12 @@ function About() {
             <img src={image} alt="" />
           </div>
           <div className="content">
-            <h3>Why Choose Psychoshala?</h3>
+            <h3>What is Psychoshala?</h3>
             <p>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum
-              sint distinctio, ex consectetur dolores voluptatum aut et iure.
-              Reiciendis illo explicabo labore suscipit perferendis praesentium.
-              Excepturi non, neque aliquid placeat corrupti illum blanditiis et
-              ad.
+              Psychoshala acts as one stop solution to all your learning needs
+              related to Psychology. ‌ ‌It is a club for students, aspiring
+              practitioners, coaches, healers, psychologists and anyone who
+              wants to learn and apply psychology concepts in their life.
             </p>
             <a href="#contact" className="btn">
               Contact Us!

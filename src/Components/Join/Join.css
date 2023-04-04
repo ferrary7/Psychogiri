@@ -1,0 +1,81 @@
+.joinSuper {
+  background-color: var(--light-bg);
+  padding-bottom: 8rem;
+}
+.joinAbout .joinRow {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  height: 80vh;
+}
+
+.joinAbout .joinRow .joinImage {
+  flex: 1 1 40rem;
+}
+
+.joinAbout .joinRow .joinImage img {
+  width: 50%;
+}
+
+.joinContent h3 {
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+.joinAbout .joinRow {
+  text-align: center;
+  flex: 1 1 40rem;
+}
+
+.joinAbout .joinRow {
+  font-size: 3rem;
+  /* color:var(--white); */
+  color: var(--black);
+}
+
+.joinAbout .joinRow .joinContent p {
+  padding: 1rem 0;
+  line-height: 2;
+  font-size: 1.6rem;
+  color: var(--light-white);
+}
+.JoinBtn {
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background-color: var(--purple);
+  cursor: pointer;
+  color: var(--white);
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+}
+
+.JoinBtn:hover {
+  background-color: var(--light-bg);
+  color: var(--black);
+}
+
+@media (max-width: 576px) {
+  .joinAbout .joinRow {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column-reverse;
+  }
+  .joinAbout .joinRow .joinImage img {
+    width: 100%;
+  }
+  .joinContent {
+    width: 100%;
+  }
+  .joinContent h3 {
+    text-align: center;
+  }
+  ul {
+    text-align: center;
+  }
+}

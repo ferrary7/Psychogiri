@@ -1,0 +1,85 @@
+.bSuper {
+  background-color: white;
+  padding-bottom: 8rem;
+}
+.bAbout .bRow {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  height: 80vh;
+}
+
+.bAbout .bRow .bImage {
+  flex: 1 1 40rem;
+}
+
+.bAbout .bRow .bImage img {
+  width: 80%;
+}
+
+.bContent h3 {
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  text-align: left;
+}
+
+.bAbout .bRow {
+  text-align: center;
+  flex: 1 1 40rem;
+}
+
+.bAbout .bRow {
+  font-size: 3rem;
+  /* color:var(--white); */
+  color: var(--black);
+}
+
+.bAbout .bRow .bContent p {
+  padding: 1rem 0;
+  line-height: 2;
+  font-size: 1.6rem;
+  color: var(--light-white);
+}
+.bBtn {
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background-color: var(--purple);
+  cursor: pointer;
+  color: var(--white);
+  font-size: 1.8rem;
+  padding: 1rem 3rem;
+}
+
+.bBtn:hover {
+  background-color: var(--light-bg);
+  color: var(--black);
+}
+
+@media (max-width: 576px) {
+  .bAbout .bRow {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 60vh;
+  }
+  .bAbout .bRow .bImage {
+    flex: 0;
+  }
+  .bAbout .bRow .bImage img {
+    width: 100%;
+  }
+  .bContent {
+    width: 100%;
+  }
+  .bContent h3 {
+    text-align: center;
+  }
+  ul {
+    text-align: center;
+  }
+}

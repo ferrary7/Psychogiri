@@ -1,0 +1,123 @@
+.pricingContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #dee7e7;
+  padding: 5rem;
+}
+.spe-pricingContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  padding: 5rem;
+}
+
+.pricing-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pricing-card {
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #324055;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+.spe-pricing-card {
+  width: 400px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #324055;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+  background-color: var(--light-bg);
+}
+
+.pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: var(--light-bg);
+}
+.spe-pricing-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.pricing-card img {
+  height: 220px;
+  width: 250px;
+}
+.pricing-card h3 {
+  font-size: 25px;
+}
+.pricing-card h2,
+.spe-pricing-card s {
+  font-size: 25px;
+}
+.pricing-card s,
+.spe-pricing-card s {
+  font-size: 18px;
+  text-decoration: 1.5px line-through black;
+  color: #5d7aa5;
+}
+.pricing-card ul {
+  list-style: none;
+  text-align: left;
+  font-size: 15px;
+}
+.featuresPricing {
+  height: 10rem;
+  padding: 3rem 0 0 0;
+}
+.pricingButton {
+  height: 4rem;
+  background-color: #324055;
+  color: white;
+  font-family: poppins;
+  width: 10rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.pricingButton:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  color: var(--purple);
+  background-color: white;
+}
+
+@media (max-width: 768px) {
+  /* .pricingContainer{
+        height: 350vh;
+    } */
+  .pricing-card,
+  .spe-pricing-card {
+    width: 100%;
+  }
+  .spe-pricing-card {
+    background-color: #dee7e7;
+  }
+  .strike {
+    padding-top: 0;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .featuresPricing {
+    height: 10rem;
+    padding: 3rem 0 10rem 0;
+  }
+  .pricingButton {
+    height: 6rem;
+    background-color: #324055;
+    color: white;
+    font-family: poppins;
+    width: 15rem;
+    border-radius: 5px;
+  }
+}
