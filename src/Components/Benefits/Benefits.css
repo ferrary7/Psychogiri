@@ -14,9 +14,9 @@
   flex: 1 1 40rem;
 }
 
-.bAbout .bRow .bImage img {
-  width: 80%;
-}
+/* .bAbout .bRow .bImage img {
+  width: 50%;
+} */
 
 .bContent h3 {
   text-align: left;
@@ -25,6 +25,8 @@
 ul {
   list-style: none;
   text-align: left;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 .bAbout .bRow {
@@ -81,5 +83,6 @@ ul {
   }
   ul {
     text-align: center;
+    font-size: 15px;
   }
 }

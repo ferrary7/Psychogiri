@@ -1,9 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faLinkedin,
-  faInstagram,
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
+import { faInstagram, faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import "./Footer.css";
 
 function Footer() {
@@ -11,16 +7,16 @@ function Footer() {
     <footer className="footer">
       <section>
         <div className="share">
-          <a
+          {/* <a
             href="https://www.linkedin.com/company/storygiri/"
             target="_blank"
             rel="noreferrer"
             className="fab fa-linkedin"
           >
             <FontAwesomeIcon icon={faLinkedin} />
-          </a>
+          </a> */}
           <a
-            href="https://www.instagram.com/storygiri/"
+            href="https://www.instagram.com/_psychoshala_/"
             target="_blank"
             rel="noreferrer"
             className="fab fa-instagram"

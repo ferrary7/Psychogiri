@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../images/course-2.svg";
+import image from "../../images/join.svg";
 import "./Join.css";
 
 function Join() {

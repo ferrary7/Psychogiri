@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../images/about-img.svg";
+import image from "../../images/about-img1.svg";
 import "./About.css";
 
 function About() {

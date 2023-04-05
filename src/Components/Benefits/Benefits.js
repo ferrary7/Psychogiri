@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../images/course-1.svg";
+import image from "../../images/benefits.svg";
 import "./Benefits.css";
 
 function Benefits() {

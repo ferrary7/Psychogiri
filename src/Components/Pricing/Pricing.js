@@ -1,8 +1,9 @@
 import React from "react";
 import "./Pricing.css";
-import basic1 from "../../images/homg-img.svg";
-import basic from "../../images/homg-img.svg";
-import basic2 from "../../images/homg-img.svg";
+import one from "../../images/one.svg";
+import three from "../../images/three.svg";
+import five from "../../images/five.svg";
+import yearOne from "../../images/yearOne.svg";
 
 const Pricing = () => {
   return (
@@ -21,7 +22,7 @@ const Pricing = () => {
           </h1>
           <div className="pricing-cards-container">
             <div className="pricing-card">
-              <img src={basic} alt="" />
+              <img src={one} alt="" />
               <div className="strike">
                 {/* <h2>1 Session</h2> */}
                 <h3>
@@ -45,7 +46,7 @@ const Pricing = () => {
               </div>
             </div>
             <div className="pricing-card">
-              <img src={basic1} alt="" />
+              <img src={three} alt="" />
               <div className="strike">
                 {/* <h2>5 Sessions</h2> */}
                 <h3>
@@ -69,14 +70,18 @@ const Pricing = () => {
               </div>
             </div>
             <div className="pricing-card">
-              <img src={basic2} alt="" />
+              <img src={five} alt="" />
               <div className="strike">
                 {/* <h2>8 Sessions</h2> */}
                 <h3>
                   <span style={{ fontSize: "1.5rem" }}>pay just </span>
                   <br />
                   <s> ₹2199 </s> ₹1499
-                  <span style={{ fontSize: "1.5rem" }}> for 6 months</span>
+                  <span style={{ fontSize: "1.5rem" }}>
+                    {" "}
+                    for 5 months
+                    <br /> + 1 month Free
+                  </span>
                 </h3>
                 <br />
                 <button
@@ -114,10 +119,10 @@ const Pricing = () => {
               SPECIAL DISCOUNT 🤩👇
             </h1>
             <div className="spe-pricing-card">
-              <img src={basic2} alt="" />
+              <img src={yearOne} style={{ width: "100%" }} alt="" />
               <div className="strike">
                 <h3 style={{ fontSize: "2.5rem" }}>
-                  <span style={{ fontSize: "2rem" }}>pay just </span>
+                  {/* <span style={{ fontSize: "2rem" }}>pay just </span> */}
                   <br />
                   <s> ₹2199 </s> ₹1499
                   <span style={{ fontSize: "2rem" }}> for 1 year plan</span>
