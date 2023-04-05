@@ -63,6 +63,9 @@ ul {
 }
 
 @media (max-width: 576px) {
+  .bSuper {
+    height: 100vh;
+  }
   .bAbout .bRow {
     display: flex;
     flex-wrap: nowrap;

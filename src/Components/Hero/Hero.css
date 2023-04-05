@@ -69,3 +69,10 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 768px) {
+  .home .row .image img {
+    width: 100%;
+    height: 48vh;
+  }
+}
