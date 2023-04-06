@@ -28,7 +28,7 @@ const Pricing = () => {
                 <h3>
                   <span style={{ fontSize: "1.5rem" }}>pay just </span>
                   <br />
-                  <s> ₹499 </s> ₹299
+                  <s> ₹299 </s> ₹99
                   <span style={{ fontSize: "1.5rem" }}> for 1 month</span>
                 </h3>
                 <br />
@@ -52,7 +52,7 @@ const Pricing = () => {
                 <h3>
                   <span style={{ fontSize: "1.5rem" }}>pay just </span>
                   <br />
-                  <s> ₹1299 </s> ₹799
+                  <s> ₹799 </s> ₹249
                   <span style={{ fontSize: "1.5rem" }}> for 3 months</span>
                 </h3>
                 <br />
@@ -76,7 +76,7 @@ const Pricing = () => {
                 <h3>
                   <span style={{ fontSize: "1.5rem" }}>pay just </span>
                   <br />
-                  <s> ₹2199 </s> ₹1499
+                  <s> ₹1499 </s> ₹449
                   <span style={{ fontSize: "1.5rem" }}>
                     {" "}
                     for 5 months
@@ -124,7 +124,7 @@ const Pricing = () => {
                 <h3 style={{ fontSize: "2.5rem" }}>
                   {/* <span style={{ fontSize: "2rem" }}>pay just </span> */}
                   <br />
-                  <s> ₹2199 </s> ₹1499
+                  <s> ₹1999 </s> ₹849
                   <span style={{ fontSize: "2rem" }}> for 1 year plan</span>
                   <br />
                   <h4>+</h4>a free t-shirt
