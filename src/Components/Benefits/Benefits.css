@@ -1,6 +1,5 @@
 .bSuper {
   background-color: white;
-  padding-bottom: 8rem;
 }
 .bAbout .bRow {
   display: flex;
@@ -26,7 +25,11 @@ ul {
   list-style: none;
   text-align: left;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 30px;
+}
+
+.active {
+  transition: all 0.3s ease-in-out;
 }
 
 .bAbout .bRow {
@@ -64,7 +67,7 @@ ul {
 
 @media (max-width: 576px) {
   .bSuper {
-    height: 100vh;
+    height: 85rem;
   }
   .bAbout .bRow {
     display: flex;
@@ -86,6 +89,10 @@ ul {
   }
   ul {
     text-align: center;
-    font-size: 15px;
+    font-size: 18px;
+    padding: 1rem;
+  }
+  .active {
+    width: 98%;
   }
 }

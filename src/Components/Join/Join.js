@@ -11,7 +11,7 @@ function Join() {
             <h3>Why join Psychoshala?</h3>
             <p>
               <ul>
-                <li> 👉 Weekly Discussions on Important Concepts </li>
+                <li> 👉 Weekly Discussions </li>
                 <li> 👉 ‌Buddy Practice sessions </li>
                 <li> 👉 ‌Get E-books, PDFs and Ppts </li>
                 <li> 👉 ‌Free Access to Short Workshops ‌ </li>

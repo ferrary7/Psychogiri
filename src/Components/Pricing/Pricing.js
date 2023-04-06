@@ -1,9 +1,5 @@
 import React from "react";
 import "./Pricing.css";
-import one from "../../images/one.svg";
-import three from "../../images/three.svg";
-import five from "../../images/five.svg";
-import yearOne from "../../images/yearOne.svg";
 
 const Pricing = () => {
   return (
@@ -22,13 +18,12 @@ const Pricing = () => {
           </h1>
           <div className="pricing-cards-container">
             <div className="pricing-card">
-              <img src={one} alt="" />
               <div className="strike">
-                {/* <h2>1 Session</h2> */}
+                <h2>STARTER</h2>
                 <h3>
                   <span style={{ fontSize: "1.5rem" }}>pay just </span>
                   <br />
-                  <s> ₹299 </s> ₹99
+                  <s> ₹299 </s> <span style={{ color: "red" }}> ₹99</span>
                   <span style={{ fontSize: "1.5rem" }}> for 1 month</span>
                 </h3>
                 <br />
@@ -46,13 +41,13 @@ const Pricing = () => {
               </div>
             </div>
             <div className="pricing-card">
-              <img src={three} alt="" />
               <div className="strike">
-                {/* <h2>5 Sessions</h2> */}
+                <h2>STANDARD</h2>
                 <h3>
                   <span style={{ fontSize: "1.5rem" }}>pay just </span>
                   <br />
-                  <s> ₹799 </s> ₹249
+                  <s> ₹799 </s>
+                  <span style={{ color: "red" }}> ₹249</span>
                   <span style={{ fontSize: "1.5rem" }}> for 3 months</span>
                 </h3>
                 <br />
@@ -70,13 +65,13 @@ const Pricing = () => {
               </div>
             </div>
             <div className="pricing-card">
-              <img src={five} alt="" />
               <div className="strike">
-                {/* <h2>8 Sessions</h2> */}
+                <h2>PREMIUM</h2>
                 <h3>
                   <span style={{ fontSize: "1.5rem" }}>pay just </span>
                   <br />
-                  <s> ₹1499 </s> ₹449
+                  <s> ₹1499 </s>
+                  <span style={{ color: "red" }}> ₹449</span>
                   <span style={{ fontSize: "1.5rem" }}>
                     {" "}
                     for 5 months
@@ -119,12 +114,11 @@ const Pricing = () => {
               SPECIAL DISCOUNT 🤩👇
             </h1>
             <div className="spe-pricing-card">
-              <img src={yearOne} style={{ width: "100%" }} alt="" />
               <div className="strike">
                 <h3 style={{ fontSize: "2.5rem" }}>
                   {/* <span style={{ fontSize: "2rem" }}>pay just </span> */}
                   <br />
-                  <s> ₹1999 </s> ₹849
+                  <s> ₹1999 </s> <span style={{ color: "red" }}> ₹899</span>
                   <span style={{ fontSize: "2rem" }}> for 1 year plan</span>
                   <br />
                   <h4>+</h4>a free t-shirt

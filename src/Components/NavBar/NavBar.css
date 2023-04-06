@@ -68,7 +68,7 @@
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
   }
 
-  .header .flex .navbar.active {
+  .header .flex .navbar.open {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
   }
 

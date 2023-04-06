@@ -4,10 +4,10 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./NavBar.css";
 
 const Header = () => {
-  const [isActive, setIsActive] = useState(false);
+  const [isOpen, setisOpen] = useState(false);
 
   const handleMenu = () => {
-    setIsActive(!isActive);
+    setisOpen(!isOpen);
   };
 
   return (
@@ -16,7 +16,7 @@ const Header = () => {
         <a href="#home" className="logo">
           Psychoshala
         </a>
-        <nav className={`navbar ${isActive ? "active" : ""}`}>
+        <nav className={`navbar ${isOpen ? "open" : ""}`}>
           <a href="#about">About us</a>
           <a href="#joinAbout">Why us?</a>
           <a href="#bAbout">Benefits</a>
@@ -25,7 +25,7 @@ const Header = () => {
         </nav>
         <div
           id="menu-btn"
-          className={`fas fa-bars ${isActive ? "fa-times" : ""}`}
+          className={`fas fa-bars ${isOpen ? "fa-times" : ""}`}
           onClick={handleMenu}
         >
           <FontAwesomeIcon icon={faBars} />
